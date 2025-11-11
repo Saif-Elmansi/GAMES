@@ -1,0 +1,70 @@
+/* صغير أو أصغر (mobile - افتراضي) */
+/* بدون ميديا كويري: ينطبق على كل الشاشات */
+
+/* شاشة ≥ 576px (sm) */
+@media screen and (min-width: 576px) {
+}
+
+/* شاشة ≥ 768px (md) */
+@media screen and (min-width: 768px) {
+  .my-class {
+    font-size: 18px;
+  }
+}
+
+/* شاشة ≥ 992px (lg) */
+@media screen and (min-width: 992px) {
+  header .content-text h1 {
+    font-size: 60px !important;
+    line-height: 75px !important;
+    font-weight: 700 !important;
+  }
+  section .header-sec h1 {
+    font-size: 60px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  header .row .image {
+    width: 100%;
+    height: 369px;
+    /* overflow: hidden; */
+    background-color: #ccff00;
+    border: #ccff00 solid 3px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 25px;
+  }
+  .button-w-media {
+    width: fit-content !important;
+    padding-block: 10px;
+  }
+  header .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    border-radius: 9px;
+  }
+  header .row .image .badge {
+    top: 318px;
+    bottom: -14px;
+    left: -22px;
+    border: solid 1px gray;
+  }
+}
+
+/* شاشة ≥ 1200px (xl) */
+@media screen and (min-width: 1200px) {
+  .my-class {
+    font-size: 22px;
+  }
+}
+
+/* شاشة ≥ 1400px (xxl) */
+@media screen and (min-width: 1400px) {
+  .my-class {
+    font-size: 24px;
+  }
+}
